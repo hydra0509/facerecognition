@@ -69,12 +69,10 @@ render() {
     <Particles className="particles" 
     params={ParticlesOptions}
     />
-     <Navigation />
      <Logo />
      <ImageLinkForm 
         onInputChange={this.onInputChange} 
         onButtonSubmit={this.onButtonSubmit} />
-     <Rank />
      <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl} />
     </div>
      );
